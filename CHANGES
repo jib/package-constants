@@ -1,4 +1,10 @@
-Changes for 0.02    Sat Dec 13 18:35:01 CET 2008
+0.04    Thu Oct 24 20:34:00 BST 2013
+=================================================
+* Update Makefile.PL to add repository et al
+* Install into site if >= v5.12.0
+* Add use deprecate due to core scheduled removal
+
+0.02    Sat Dec 13 18:35:01 CET 2008
 =================================================
 * Users of 0.01 need not upgrade
 * Package::Constants is a core module, so the Makefile.PL
