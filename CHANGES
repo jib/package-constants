@@ -5,6 +5,7 @@ Revision history for Perl module Package::Constants
       and use of our.
     - Added min perl version 5.006 to metadata
     - Reformatted this file as per CPAN::Changes::Spec
+    - Added SEE ALSO section to doc
 
 0.04 2013-10-24 BINGOS
     - Update Makefile.PL to add repository et al

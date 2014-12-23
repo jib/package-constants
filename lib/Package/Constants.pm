@@ -86,6 +86,10 @@ sub _debug { warn "@_\n" if $DEBUG; }
 
 1;
 
+=head1 SEE ALSO
+
+L<Module::Functions> - get a list of all the public functions defined in a package.
+
 =head1 BUG REPORTS
 
 Please report bugs or other issues to E<lt>bug-package-constants@rt.cpan.org<gt>.
