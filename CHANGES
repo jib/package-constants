@@ -3,6 +3,7 @@ Revision history for Perl module Package::Constants
 0.05 2014-12-?? BINGOS
     - Added min perl version 5.006 to the code, and added "use warnings",
       and use of our.
+    - Added min perl version 5.006 to metadata
     - Reformatted this file as per CPAN::Changes::Spec
 
 0.04 2013-10-24 BINGOS
