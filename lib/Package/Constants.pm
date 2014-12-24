@@ -6,7 +6,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION    = '0.04';
+our $VERSION    = '0.06';
 our $DEBUG      = 0;
 
 =head1 NAME
