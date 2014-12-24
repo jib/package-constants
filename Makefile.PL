@@ -9,14 +9,15 @@ WriteMakefile1(
         },
     },
 
-    NAME            => 'Package::Constants',
-    VERSION_FROM    => 'lib/Package/Constants.pm', # finds $VERSION
-    dist            => { COMPRESS => 'gzip -9f', SUFFIX => 'gz' },
-    PREREQ_PM       => {    'Test::More'    => 0,
-                    },
-    INSTALLDIRS     => ( $] >= 5.009005 && $] < 5.012 ? 'perl' : 'site' ),
-    AUTHOR          => 'Jos Boumans <kane[at]cpan.org>',
-	  ABSTRACT        => 'List constants defined in a package'
+    NAME             => 'Package::Constants',
+    VERSION_FROM     => 'lib/Package/Constants.pm', # finds $VERSION
+    dist             => { COMPRESS => 'gzip -9f', SUFFIX => 'gz' },
+    PREREQ_PM        => {    'Test::More'    => 0,
+                     },
+    INSTALLDIRS      => ( $] >= 5.009005 && $] < 5.012 ? 'perl' : 'site' ),
+    AUTHOR           => 'Jos Boumans <kane[at]cpan.org>',
+    ABSTRACT         => 'List constants defined in a package',
+    MIN_PERL_VERSION => '5.006',
 );
 
 sub WriteMakefile1 {  #Written by Alexandr Ciornii, version 0.21. Added by eumm-upgrade.
